@@ -13,6 +13,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap'
 gem 'jquery-rails'
+gem 'will_paginate'
+gem 'pg_search'
+gem "bootstrap_form"
 
 group :development, :test do
   gem 'sqlite3'
